@@ -1,17 +1,34 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Number of Registered Students</title>
 </head>
 <body>
+	 <nav class="navbar navbar-dark navbar-expand sticky-top navigation-clean-search" style="background-color: #F76565;height: 50px;">
+       <!--  <div class="container"><a class="navbar-brand" href="./" style="font-family: HolidayFree;font-size: 30px;">Digital Signature</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div
+                class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item" role="presentation"></li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="{% url 'studentdetails'%}">Student Registration<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'studentslist'%}">View Registered Students</a>
+                    </li>
+                </ul>
+        </div>
+        </div> -->
+    </nav>
 <ul>
-	{% for student in object_list %}
+	{% for student in objects %}
 	<li>{{ student }}</li>
 	{% empty %}
 	<li>
 		No Students Registered Yet
 	</li>
 	{% endfor %}
+	
 
 </ul>
 </body>

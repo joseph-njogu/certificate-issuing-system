@@ -37,7 +37,7 @@
         <div class="panel-body">
 
           
-          <form action="{% url 'student' %}" method="post">
+          <form action="{% url 'studentdetails' %}" method="post">
           {% csrf_token %}
           {{ form.as_p }}   
 

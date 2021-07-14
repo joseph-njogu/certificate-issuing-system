@@ -125,3 +125,4 @@ STATIC_URL = '/static/'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+SECURE_STRING_SALT = "2w3tgn)^o9v@vrd5e(1ctf1we%s=o$=^kib4^m#@at^@n5eyu"
