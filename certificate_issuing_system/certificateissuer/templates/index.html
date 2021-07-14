@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Online Digital Signature</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://uicdn.toast.com/tui-calendar/latest/tui-calendar.css" />
+
+</head>
+<body>
+ <nav class="navbar navbar-dark navbar-expand sticky-top navigation-clean-search" style="background-color: #F76565;height: 50px;">
+        <div class="container"><a class="navbar-brand" href="./" style="font-family: HolidayFree;font-size: 30px;">Digital Signature</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div
+                class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item" role="presentation"></li>
+                   <!--      <a class="nav-item"
+                                role="presentation" href="{% url 'student'%}" style="font-family: 'SF UI Text Medium';color: #FFFF;">Student Registration</a>
+                    </li>
+                     <li class="nav-item" role="presentation"></li>
+                        <a class="nav-item"
+                                role="presentation" href="{% url 'student'%}" style="font-family: 'SF UI Text Medium';color: #FFFF;">Registration Metrics</a>
+                    </li>
+                     <li class="nav-item" role="presentation"></li>
+                        <a class="nav-item "
+                                role="presentation" href="{% url 'student'%}" style="font-family: 'SF UI Text Medium';color: #FFFF;">View Certificates</a>
+                    </li> -->
+                     <li class="nav-item">
+                        <a class="nav-link" href="{% url 'student'%}">Student Registration<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'StudentList'%}">Registration Metrics</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'student'%}">View Certificates</a>
+                    </li>
+                </ul>
+        </div>
+        </div>
+    </nav>
+</body>
+</html>
